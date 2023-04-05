@@ -8,7 +8,7 @@ function List({ data }) {
           <div key={item.url} className="flex flex-col  shadow-xl">
             <div className="overflow-hidden">
               <img
-                src={item.urlToImage}
+                src={item.image}
                 alt=""
                 className="hover:scale-110 transition duration-500 ease-in-out"
               />
